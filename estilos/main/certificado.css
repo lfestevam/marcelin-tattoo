@@ -1,0 +1,38 @@
+.certificacao {
+  max-width: 1300px;
+  padding: 2rem 3rem 3rem 3rem;
+  margin: 0 auto;
+}
+.certificacao h2 {
+  margin: 0;
+  margin-bottom: 30px;
+  font-size: 48px;
+  color: #f7f7f7;
+  text-align: center;
+}
+.lista-imagens {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+.lista-imagens img {
+  box-shadow: 2px 2px 10px #000000;
+  border-radius: 5px;
+  width: 200px;
+  transition: 0.8s ease-in;
+  cursor: zoom-in;
+}
+.lista-imagens img:hover {
+  transform: translateY(-3px);
+  width: 400px;
+}
+@media (max-width: 800px) {
+  .certificacao {
+    padding: 2rem 1rem 3rem 1rem;
+  }
+  .certificacao h2 {
+    font-size: 24px;
+  }
+}
