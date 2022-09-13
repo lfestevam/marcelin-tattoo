@@ -19,8 +19,14 @@
   display: flex;
   justify-content: center;
 }
-.qr-code img {
+.qr-code-img {
   width: 250px;
+}
+.wpp-logo {
+  display: none;
+}
+.mobile p {
+  display: none;
 }
 @media (max-width: 800px) {
   .grid {
@@ -29,5 +35,16 @@
   }
   .primeira {
     text-align: center;
+  }
+  .qr-code-img {
+    display: none;
+  }
+  .mobile {
+    display: flex;
+    gap: 10px;
+  }
+  .wpp-logo {
+    display: flex;
+    width: 30px;
   }
 }
