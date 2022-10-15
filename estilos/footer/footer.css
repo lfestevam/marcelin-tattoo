@@ -33,6 +33,13 @@
 .mobile p {
   display: none;
 }
+.telefone {
+  color: #f7f7f7;
+  text-decoration: none;
+}
+.telefone:hover {
+  color: #ffffff;
+}
 @media (max-width: 800px) {
   .grid {
     padding: 5rem 1rem 5rem 1rem;

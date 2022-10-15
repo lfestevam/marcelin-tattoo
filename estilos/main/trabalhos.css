@@ -21,6 +21,9 @@
   max-width: 400px;
   margin: 0 auto;
 }
+.img-principal img {
+  border-radius: 4px;
+}
 .principal {
   width: 100%;
   display: flex;
