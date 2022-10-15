@@ -5,6 +5,9 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Tatuagem e Piercing">
+  <meta name="author" content="Luís Estevam">
+  <meta name="keywords" content="tatuagem, estudio, tattoo, tatuador, paulista, recife, piercing">
   <link rel="shortcut icon" href="./img/favicon/favicon 32x32.png" type="image/x-icon">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -22,8 +25,6 @@
   <link rel="stylesheet" href="./estilos/main/certificado.css">
   <!--TRabalhos (visivel)-->
   <link rel="stylesheet" href="./estilos/main/trabalhos.css">
-  <!--Trabalhos (invisivel)-->
-  <link rel="stylesheet" href="./estilos/main/trabalhos-p2.css">
   <!--Botão ver mais-->
   <link rel="stylesheet" href="./estilos/main/btn.css">
   <!--Localização-->
@@ -43,115 +44,101 @@
         <img src="./img/header/intro/menu-mobile.svg" alt="" id="btn-mobile">
         <ul id="menu">
           <li><a href="#sobre" id="sobreout">Sobre</a></li>
-          <li><a href="#projetos" id="galeria">Galeria</a></li>
+          <li><a href="#trabalhos" id="trabalho">Galeria</a></li>
           <li><a href="#informacoes" id="endereco">Endereço</a></li>
         </ul>
       </nav>
     </div>
     <div class="contato">
+      <img src="./img/main/intro.svg" alt="">
       <a href="https://api.whatsapp.com/message/PDNXNWOJXMVLE1?autoload=1&app_absent=0" target="blank">Entre em contato</a>
     </div>
   </header>
   <main>
-    <section class="intro" id="sobre">
+    <article class="intro" id="sobre">
       <div class="content">
         <div class="foto">
           <img src="./img/main/apresentacao/foto-marcelo.jpg" alt="foto-artista">
         </div>
         <div class="apresentacao">
           <p>Tatuador profissional desde 2021, especialista em Black Work, possui experiência em Fine-line, Realismo, Old School e Rastelado.</p>
+        </div>
+      </div>
+    </article>
+    <article class="certificacao">
+      <div class="conteiner-certificados">
+        <h2>CERTIFICAÇÕES</h2>
+        <ul class="lista-imagens">
+          <li>
+            <div class="certificado">
+              <img src="./img/main/certificados/certificado1.png" alt="Certificado">
+            </div>
+          </li>
+          <li>
+            <div class="box-image">
+              <img src="./img/main/certificados/certificado2.png" alt="Certificado">
+            </div>
+          </li>
+          <li>
+            <div class="box-image">
+              <img src="./img/main/certificados/certificado3.png" alt="Certificado">
+            </div>
+          </li>
+          <li>
+            <div class="box-image">
+              <img src="./img/main/certificados/certificado4.png" alt="Certificado">
+            </div>
+          </li>
+        </ul>
+      </div>
+
+    </article>
+    <article class="trabalhos" id="trabalhos">
+      <div class="conteiner-trabalhos">
+        <div class="principal">
+          <h2>THIS IS ART</h2>
+          <div class="img-principal">
+            <img src="./img/main/trabalhos/trabalho5.png" alt="">
+          </div>
+        </div>
+        <div class="secundarios">
+          <h2>CLIQUE NAS IMAGENS</h2>
+          <ul class="lista-trabalhos" id="trabalhos-galeria">
+            <li><img src="./img/main/trabalhos/trabalho1.png" alt=""></li>
+            <li><img src="./img/main/trabalhos/trabalho2.png" alt=""></li>
+            <li><img src="./img/main/trabalhos/trabalho3.png" alt=""></li>
+            <li><img src="./img/main/trabalhos/trabalho4.png" alt=""></li>
+            <li><img src="./img/main/trabalhos/trabalho7.png" alt=""></li>
+            <li><img src="./img/main/trabalhos/trabalho6.png" alt=""></li>
+          </ul>
           <div class="instagram">
             <a href="https://www.instagram.com/um.marcelo.tattoo/" target="blank"><img src="./img/main/apresentacao/ig.svg" alt="logo-instagram">Instagram</a>
           </div>
         </div>
       </div>
-    </section>
-    <section class="certificacao">
-      <h2>CERTIFICAÇÕES</h2>
-      <ul class="lista-imagens">
-        <li>
-          <div class="certificado">
-            <img src="./img/main/certificados/certificado1.png" alt="Certificado">
-          </div>
-        </li>
-        <li>
-          <div class="box-image">
-            <img src="./img/main/certificados/certificado2.png" alt="Certificado">
-          </div>
-        </li>
-        <li>
-          <div class="box-image">
-            <img src="./img/main/certificados/certificado3.png" alt="Certificado">
-          </div>
-        </li>
-        <li>
-          <div class="box-image">
-            <img src="./img/main/certificados/certificado4.png" alt="Certificado">
-          </div>
-        </li>
-      </ul>
-    </section>
-    <section class="trabalhos" id="projetos">
-      <div class="content-p">
-        <div class="artes">
-          <div class="partes">
-            <img src="./img/main/trabalhos/trabalho1.png" alt="tatuagem-de-tigre">
-            <img src="./img/main/trabalhos/trabalho2.png" alt="demonio">
-          </div>
-          <div class="partes">
-            <img src="./img/main/trabalhos/trabalho3.png" alt="Anjo-segurando-yin-yang">
-            <img src="./img/main/trabalhos/trabalho4.png" alt="leão-com-flor">
-          </div>
-        </div>
-        <img src="./img/main/trabalhos/titulo-desktop.svg" alt="titulo" class="titulo-desktop">
-        <img src="./img/main/trabalhos/titulo-mobile.svg" alt="titulo" class="titulo-mobile">
-      </div>
-    </section>
-    <section class="trabalhos-p2 visivel" id="trabalhos-p2">
-      <div class="content-p2">
-        <ul class="trabalhos-todos">
-          <li><img src="./img/main/trabalhos/trabalho5.png" alt="angel"></li>
-          <li><img src="./img/main/trabalhos/trabalho6.png" alt="tigela"></li>
-          <li><img src="./img/main/trabalhos/trabalho7.png" alt="onda-fine-line"></li>
-        </ul>
-      </div>
-    </section>
-    <div class="botao">
-      <div class="btn-ver-mais" id="btn-ver-mais">
-        <button type="button">Ver Todos</button>
-      </div>
-    </div>
-    <section class="localizacao" id="informacoes">
-      <div class="grid">
-        <div class="primeira">
-          <h2>Endereço</h2>
-          <p>R.Dr. José Mariano, n° 1015.</p>
-          <p>Arthur Lundgren I, Paulista - PE, 53413-530.</p>
-        </div>
-
-        <div class="segunda">
-          <h2>Entre em contato e marque sua sessão:</h2>
-          <div class="qr-code">
-            <img src="./img/main/endereco/qr-code.png" alt="QR-code" class="qr-code-img">
-            <div class="mobile">
-              <img src="./img/main/endereco/whatsapp-icon.svg" alt="logo-whatsapp" class="wpp-logo">
-              <p>(81)98467-8155</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+    </article>
   </main>
-  <footer>
-    <div class="rodape">
-      <h3>Developed by: Luís Estevam</h3>
-      <div class="links-dev">
-        <a href="https://github.com/lfestevam" target="blank"> <img src="./img/footer/github.svg" alt="logo-github"> Github</a>
-        <a href="https://www.linkedin.com/in/lu%C3%ADs-estevam-devweb1307/" target="blank"> <img src="./img/footer/linkedin.svg" alt="logo-linkedin"> Linkedin</a>
+  <footer class="localizacao" id="informacoes">
+    <div class="grid">
+      <div class="primeira">
+        <h2>Endereço</h2>
+        <p>R.Dr. José Mariano, n° 1015.</p>
+        <p>Arthur Lundgren I, Paulista - PE, 53413-530.</p>
+      </div>
+
+      <div class="segunda">
+        <h2>Entre em contato e marque sua sessão:</h2>
+        <div class="qr-code">
+          <img src="./img/main/endereco/qr-code.png" alt="QR-code" class="qr-code-img">
+          <div class="mobile">
+            <img src="./img/main/endereco/whatsapp-icon.svg" alt="logo-whatsapp" class="wpp-logo">
+            <p>(81)98467-8155</p>
+          </div>
+        </div>
       </div>
     </div>
   </footer>
 </body>
-<script src="./index.js"></script>
+<script src="./script.js"></script>
 
 </html>
